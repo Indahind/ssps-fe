@@ -1,0 +1,766 @@
+ERROR - 2025-06-02 03:39:02 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:39:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+ERROR - 2025-06-02 03:39:59 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:39:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+ERROR - 2025-06-02 03:40:39 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:40:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+ERROR - 2025-06-02 03:41:16 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:41:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+ERROR - 2025-06-02 03:41:48 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:41:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+ERROR - 2025-06-02 03:42:05 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:42:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 03:49:43 --> Login attempt by: training101
+ERROR - 2025-06-02 03:49:44 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:49:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DWH"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 03:52:24 --> Login attempt by: training101
+ERROR - 2025-06-02 03:52:24 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 03:52:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:05:45 --> Login attempt by: training101
+ERROR - 2025-06-02 04:05:45 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:05:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:06:08 --> Login attempt by: superadmin
+ERROR - 2025-06-02 04:06:08 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:06:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:13:43 --> Login attempt by: superadmin
+ERROR - 2025-06-02 04:13:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:13:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(35): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+WARNING - 2025-06-02 04:23:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+WARNING - 2025-06-02 04:23:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:23:35 --> Login attempt by: useradmin
+ERROR - 2025-06-02 04:23:35 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:23:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:24:28 --> Login attempt by: useradmin
+ERROR - 2025-06-02 04:24:28 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:24:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:29:09 --> Login attempt by: useradmin
+ERROR - 2025-06-02 04:29:09 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:29:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:29:18 --> Login attempt by: useradmin
+ERROR - 2025-06-02 04:29:18 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:29:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 04:29:36 --> Login attempt by: useradmin
+ERROR - 2025-06-02 04:29:36 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 04:29:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 06:29:38 --> Login attempt by: useradmin
+ERROR - 2025-06-02 06:29:39 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 06:29:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 06:29:46 --> Login attempt by: useradmin
+ERROR - 2025-06-02 06:29:47 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 06:29:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 06:29:54 --> Login attempt by: useradmin
+ERROR - 2025-06-02 06:29:54 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 06:29:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
+DEBUG - 2025-06-02 06:29:59 --> Login attempt by: useradmin
+ERROR - 2025-06-02 06:29:59 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456 in C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#5 C:\Users\istd.magang93\Documents\Indah\ssps-fe\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+#7 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\istd.magang93\Documents\Indah\ssps-fe\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\istd.magang93\Documents\Indah\ssps-fe\system\rewrite.php(44): require_once('C:\\Users\\istd.m...')
+#13 {main}
+CRITICAL - 2025-06-02 06:29:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Method: POST, Route: login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MUSERNAME" = :MUSERNAME:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\istd.magang93\\Documents\\Indah\\ssps-fe\\public\\index.php')
