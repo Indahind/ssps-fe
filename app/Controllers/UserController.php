@@ -3,42 +3,95 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
-use CodeIgniter\RESTful\ResourceController;
 
-class UserController extends ResourceController
+class UserController extends BaseController
 {
-    protected $modelName = 'App\Models\UserModel';
-    protected $format    = 'json';
+    protected $userModel;
+
+    public function __construct()
+    {
+        $this->userModel = new UserModel();
+    }
+
+    public function index()
+    {
+        $data['users'] = $this->userModel
+            ->where('status', 'ACTIVE')
+            ->findAll();
+
+        return view('user/index', $data);
+    }
+
+    public function show($id)
+    {
+        $data['user'] = $this->userModel->find($id);
+        if (!$data['user']) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('User not found');
+        }
+
+        return view('user/detail', $data);
+    }
 
     public function create()
     {
-        $data = $this->request->getJSON(true);
-
-        if (!$this->model->insert($data)) {
-            return $this->failValidationErrors($this->model->errors());
-        }
-
-        return $this->respondCreated($data);
+        return view('user/create');
     }
 
-    public function update($id = null)
+    public function store()
     {
-        $data = $this->request->getJSON(true);
+        $data = $this->request->getPost();
 
-        if (!$this->model->update($id, $data)) {
-            return $this->failValidationErrors($this->model->errors());
+        // Hash password sebelum simpan
+        $data['MPASWORD'] = password_hash($data['MPASWORD'], PASSWORD_DEFAULT);
+        $data['NSTATUS'] = 'ACTIVE';
+
+        if (!$this->userModel->insert($data)) {
+            return redirect()->back()->withInput()->with('errors', $this->userModel->errors());
         }
 
-        return $this->respond($data);
+        return redirect()->to('/users')->with('success', 'User berhasil ditambahkan.');
     }
 
-    public function delete($id = null)
+
+    public function edit($id)
     {
-        if (!$this->model->find($id)) {
-            return $this->failNotFound('User not found');
+        $data['user'] = $this->userModel->find($id);
+        if (!$data['user']) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('User not found');
         }
 
-        $this->model->delete($id);
-        return $this->respondDeleted(['message' => 'User deleted']);
+        return view('user/update', $data);
+    }
+
+    public function update($id)
+    {
+        $data = $this->request->getPost();
+
+        // Kalau password kosong, jangan update password
+        if (empty($data['MPASWORD'])) {
+            unset($data['MPASWORD']);
+        } else {
+            // Hash password baru
+            $data['MPASWORD'] = password_hash($data['MPASWORD'], PASSWORD_DEFAULT);
+        }
+
+        if (!$this->userModel->update($id, $data)) {
+            return redirect()->back()->withInput()->with('errors', $this->userModel->errors());
+        }
+
+        return redirect()->to('/users')->with('success', 'User berhasil diupdate.');
+    }
+
+
+
+    public function delete($id)
+    {
+        $user = $this->userModel->find($id);
+        if (!$user) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('User not found');
+        }
+
+        $this->userModel->update($id, ['status' => 'INACTIVE']);
+        return redirect()->to('/users')->with('success', 'User berhasil dinonaktifkan.');
     }
 }

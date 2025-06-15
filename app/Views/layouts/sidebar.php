@@ -15,67 +15,56 @@
                     </button>
                 </div>
             </div>
-
             <script>
-                // Inline JavaScript untuk toggle logo
                 document.getElementById('sidebar-toggle').addEventListener('click', function() {
                     var logo = document.querySelector('.logo');
                     var navbar = document.querySelector('.navbar-brand-wrapper');
 
-                    // Toggle kelas sidebar-collapsed untuk mengubah opasitas logo
                     navbar.classList.toggle('sidebar-collapsed');
 
                     if (navbar.classList.contains('sidebar-collapsed')) {
-                        logo.style.opacity = 0; // Logo sembunyi
+                        logo.style.opacity = 0;
                     } else {
-                        logo.style.opacity = 1; // Logo tampil
+                        logo.style.opacity = 1;
                     }
                 });
             </script>
         </nav>
-        <!-- partial -->
         <div class="container-fluid page-body-wrapper">
-            <!-- partial:partials/_sidebar.html -->
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('index.php/dashboard') ?>">
+                        <a class="nav-link" href="<?= site_url('dashboard') ?>">
                             <i class="mdi mdi-view-dashboard mdi-24px"></i>
                             <span class="menu-title ml-3">Dashboard</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('index.php/camera') ?>">
-                            <i class="mdi mdi-camera mdi-24px"></i>
-                            <span class="menu-title ml-3">Camera</span>
+                        <a class="nav-link" href="<?= site_url('part') ?>"> <!-- Pastikan route ini ada -->
+                            <i class="mdi mdi-video-input-component mdi-24px"></i>
+                            <span class="menu-title ml-3">Part</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('index.php/model') ?>">
-                            <i class="mdi mdi-file mdi-24px"></i>
-                            <span class="menu-title ml-3">Model</span>
+                        <a class="nav-link" href="<?= site_url('users') ?>">
+                            <i class="mdi mdi-camera-account mdi-24px"></i>
+                            <span class="menu-title ml-3">User</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('index.php/solution') ?>">
-                            <i class="mdi mdi-library mdi-24px"></i>
-                            <span class="menu-title ml-3">Solution</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('index.php/use') ?>">
+                        <a class="nav-link" href="<?= site_url('processes') ?>">
                             <i class="mdi mdi-microsoft mdi-24px"></i>
-                            <span class="menu-title ml-3">Solution Transaction</span>
+                            <span class="menu-title ml-3">Part Plan</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url() ?>">
+                        <a class="nav-link" href="<?= site_url('logout') ?>">
                             <i class="mdi mdi-logout mdi-24px"></i>
                             <span class="menu-title ml-3">Logout</span>
                         </a>
                     </li>
                 </ul>
+
             </nav>
-            <!-- partial -->
             <div class="main-panel">
                 <div class="content-wrapper">

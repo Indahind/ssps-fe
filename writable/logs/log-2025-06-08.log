@@ -1,0 +1,16 @@
+DEBUG - 2025-06-08 16:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-08 16:17:10 --> Login attempt by: superadmin
+DEBUG - 2025-06-08 16:17:10 --> User found: Array
+(
+    [MNOREG] => 083278773
+    [MUSERNAME] => superadmin
+    [MNAMA] => Super Admin
+    [MPASWORD] => toyoadmin
+    [NSTATUS] => aktif
+    [CREATEDATE] => 2025-04-02
+    [RCEATEBY] => 
+)
+
+DEBUG - 2025-06-08 16:17:10 --> Password match.
+DEBUG - 2025-06-08 16:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-08 16:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
