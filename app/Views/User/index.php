@@ -7,6 +7,20 @@
             <div class="card-body">
                 <h4 class="card-title">User List</h4>
 
+                <!-- Display success message if available -->
+                <?php if (session()->getFlashdata('success')): ?>
+                    <div class="alert alert-success">
+                        <?= session()->getFlashdata('success') ?>
+                    </div>
+                <?php endif; ?>
+
+                <!-- Display error message if available -->
+                <?php if (session()->getFlashdata('errors')): ?>
+                    <div class="alert alert-danger">
+                        <?= session()->getFlashdata('errors') ?>
+                    </div>
+                <?php endif; ?>
+
                 <!-- Tombol Tambah User -->
                 <a href="<?= site_url('users/create') ?>" class="btn btn-primary mb-3">Add New User</a>
 

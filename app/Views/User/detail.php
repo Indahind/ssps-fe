@@ -28,7 +28,7 @@
                     </tr>
                 </table>
 
-                <a href="<?= site_url('users') ?>" class="btn btn-secondary mt-3">Kembali ke Daftar</a>
+                <a href="<?= site_url('users') ?>" class="btn btn-secondary mt-3">Back to List</a>
 
             </div>
         </div>

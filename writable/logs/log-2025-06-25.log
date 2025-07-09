@@ -1,0 +1,208 @@
+DEBUG - 2025-06-25 14:26:31 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:26:31 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:26:32 --> User found: 083278773
+DEBUG - 2025-06-25 14:26:32 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:26:32 --> Password mismatch.
+DEBUG - 2025-06-25 14:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:27:27 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:27:27 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:27:27 --> User found: 083278773
+DEBUG - 2025-06-25 14:27:27 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:27:27 --> Password mismatch.
+DEBUG - 2025-06-25 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:28:46 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:28:46 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:28:46 --> User found: 083278773
+DEBUG - 2025-06-25 14:28:46 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:28:46 --> Password mismatch.
+DEBUG - 2025-06-25 14:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:29:27 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:29:27 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:29:27 --> User found: 083278773
+DEBUG - 2025-06-25 14:29:27 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:29:27 --> Password mismatch.
+DEBUG - 2025-06-25 14:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:29:59 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:29:59 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:29:59 --> User found: 083278773
+DEBUG - 2025-06-25 14:29:59 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:29:59 --> Password mismatch.
+DEBUG - 2025-06-25 14:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:30:08 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:30:08 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:30:08 --> User found: 083278773
+DEBUG - 2025-06-25 14:30:08 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:30:08 --> Password mismatch.
+DEBUG - 2025-06-25 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:36:51 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:36:51 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:36:51 --> User found: 083278773
+DEBUG - 2025-06-25 14:36:51 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:36:52 --> Password mismatch.
+DEBUG - 2025-06-25 14:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:37:04 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:37:04 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:37:04 --> User found: 083278773
+DEBUG - 2025-06-25 14:37:04 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:37:04 --> Password mismatch.
+DEBUG - 2025-06-25 14:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:37:09 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:37:09 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:37:09 --> User found: 083278773
+DEBUG - 2025-06-25 14:37:09 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:37:09 --> Password mismatch.
+DEBUG - 2025-06-25 14:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:38:17 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:38:17 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:38:17 --> User found: 083278773
+DEBUG - 2025-06-25 14:38:17 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:38:17 --> Password mismatch.
+DEBUG - 2025-06-25 14:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 14:52:29 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 14:52:29 --> Password input: toyoadmin
+DEBUG - 2025-06-25 14:52:29 --> User found: 083278773
+DEBUG - 2025-06-25 14:52:29 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 14:52:29 --> Password mismatch.
+DEBUG - 2025-06-25 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 15:13:21 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 15:13:21 --> Password input: toyoadmin
+DEBUG - 2025-06-25 15:13:21 --> User found: 083278773
+DEBUG - 2025-06-25 15:13:21 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 15:13:21 --> Password mismatch.
+DEBUG - 2025-06-25 15:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 15:36:09 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 15:36:09 --> Password input: toyoadmin
+DEBUG - 2025-06-25 15:36:10 --> User found: 083278773
+DEBUG - 2025-06-25 15:36:10 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 15:36:10 --> Password mismatch.
+DEBUG - 2025-06-25 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 15:36:33 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 15:36:33 --> Password input: toyoadmin
+DEBUG - 2025-06-25 15:36:33 --> User found: 083278773
+DEBUG - 2025-06-25 15:36:33 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 15:36:33 --> Password mismatch.
+DEBUG - 2025-06-25 15:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 15:56:29 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 15:56:30 --> Password input: toyoadmin
+DEBUG - 2025-06-25 15:56:30 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 15:56:30 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 15:56:30 --> Password mismatch.
+DEBUG - 2025-06-25 15:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 15:56:42 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 15:56:42 --> Password input: toyoadmin
+DEBUG - 2025-06-25 15:56:42 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 15:56:42 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 15:56:42 --> Password mismatch.
+DEBUG - 2025-06-25 15:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 15:56:56 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 15:56:56 --> Password input: toyoadmin
+DEBUG - 2025-06-25 15:56:56 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 15:56:56 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 15:56:56 --> Password mismatch.
+DEBUG - 2025-06-25 15:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:12:17 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:12:17 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:12:17 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:12:17 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 16:12:17 --> Password mismatch.
+DEBUG - 2025-06-25 16:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:12:27 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:12:27 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:12:27 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:12:27 --> Password from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-25 16:12:27 --> Password mismatch.
+DEBUG - 2025-06-25 16:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:20:59 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:20:59 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:20:59 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:20:59 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 16:20:59 --> Password mismatch.
+DEBUG - 2025-06-25 16:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:21:10 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:21:10 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:21:10 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:21:10 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 16:21:10 --> Password mismatch.
+DEBUG - 2025-06-25 16:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:21:29 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:21:29 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:21:29 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:21:29 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 16:21:29 --> Password mismatch.
+DEBUG - 2025-06-25 16:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:21:42 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:21:42 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:21:42 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:21:42 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 16:21:42 --> Password mismatch.
+DEBUG - 2025-06-25 16:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:22:29 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:22:29 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:22:29 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:22:29 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 16:22:29 --> Password mismatch.
+DEBUG - 2025-06-25 16:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 16:23:13 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 16:23:13 --> Password input: toyoadmin
+DEBUG - 2025-06-25 16:23:13 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 16:23:13 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 16:23:13 --> Password mismatch.
+DEBUG - 2025-06-25 16:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 22:18:52 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 22:18:52 --> Password input: toyoadmin
+DEBUG - 2025-06-25 22:18:53 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 22:18:53 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 22:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 22:21:44 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 22:21:44 --> Password input: toyoadmin
+DEBUG - 2025-06-25 22:21:44 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 22:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 22:31:56 --> Login attempt by: superadmin
+DEBUG - 2025-06-25 22:31:56 --> Password input: toyoadmin
+DEBUG - 2025-06-25 22:31:56 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-25 22:31:56 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-25 22:31:57 --> Password match.
+DEBUG - 2025-06-25 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 22:31:57 --> Session setelah login: Array
+(
+    [__ci_last_regenerate] => 1750890717
+    [isLoggedIn] => 1
+    [userId] => 083278773
+    [username] => superadmin
+    [nama] => Super Admin
+)
+
+DEBUG - 2025-06-25 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 22:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-25 22:35:57 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: part/create]
+in APPPATH\Views\Part\create.php on line 1.
+ 1 APPPATH\Views\Part\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/create', [], true)
+ 5 APPPATH\Controllers\PartController.php(40): view('part/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-25 22:36:00 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: part/create]
+in APPPATH\Views\Part\create.php on line 1.
+ 1 APPPATH\Views\Part\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/create', [], true)
+ 5 APPPATH\Controllers\PartController.php(40): view('part/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-06-25 23:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-25 23:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

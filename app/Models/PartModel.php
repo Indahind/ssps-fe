@@ -7,19 +7,19 @@ use CodeIgniter\Model;
 class PartModel extends Model
 {
     protected $table      = 'TB_M_PART';
-    protected $primaryKey = 'MPARTID';
+    protected $primaryKey = 'MPARTNO'; 
 
-    protected $useAutoIncrement = false;
+    protected $useAutoIncrement = false; 
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
 
     protected $allowedFields = [
-        'MPARTID',
-        'MPARTNAME',
-        'NQTY',
-        'NSTATUS',
-        'CREATEDATE',
-        'CREATEBY',
+        'MPARTNO',   
+        'MPARTNAME',    
+        'NSUPPLIERPARTNAME',  
+        'NSTATUS',     
+        'CREATEDATE',  
+        'CREATEBY',   
     ];
 
     protected $useTimestamps = false;

@@ -52,12 +52,6 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('processes') ?>">
-                            <i class="mdi mdi-microsoft mdi-24px"></i>
-                            <span class="menu-title ml-3">Part Plan</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('logout') ?>">
                             <i class="mdi mdi-logout mdi-24px"></i>
                             <span class="menu-title ml-3">Logout</span>

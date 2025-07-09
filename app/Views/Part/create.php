@@ -1,54 +1,121 @@
-<?php $this->load->view('layouts/header'); ?>
-<?php $this->load->view('layouts/sidebar'); ?>
+<?= $this->include('layouts/header') ?>
+<?= $this->include('layouts/sidebar') ?>
 
 <div class="content">
-    <div class="col-12 grid-margin">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Add Part</h4>
-                <form method="POST" action="<?= base_url('index.php/part/create') ?>" class="form-sample">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Part ID</label>
-                                <div class="col-sm-9">
-                                    <input type="text" name="MPARTID" class="form-control" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Part Name</label>
-                                <div class="col-sm-9">
-                                    <input type="text" name="MPARTNAME" class="form-control" required />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Quantity</label>
-                                <div class="col-sm-9">
-                                    <input type="number" name="NQTY" class="form-control" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Status</label>
-                                <div class="col-sm-9">
-                                    <input type="text" name="NSTATUS" class="form-control" required />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <a href="<?= base_url('index.php/part') ?>" class="btn btn-secondary">Cancel</a>
-                </form>
+  <div class="col-12 grid-margin">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Add Part</h4>
+
+        <!-- Server‐side validation errors (if any) -->
+        <?php if (session()->getFlashdata('errors')): ?>
+          <div class="alert alert-danger">
+            <ul>
+              <?php foreach (session()->getFlashdata('errors') as $error): ?>
+                <li><?= esc($error) ?></li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
+        <?php endif; ?>
+
+        <form
+          id="addPartForm"
+          method="POST"
+          action="<?= base_url('part/store') ?>"
+          class="form-sample"
+        >
+          <?= csrf_field() ?>
+
+          <div class="row">
+            <!-- Part ID (read-only) -->
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Part ID</label>
+                <div class="col-sm-9">
+                  <input
+                    type="text"
+                    name="MPARTNO"
+                    class="form-control"
+                    value="<?= esc($nextMPARTNO) ?>"
+                    readonly
+                  />
+                </div>
+              </div>
             </div>
-        </div>
+
+            <!-- Part Name -->
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Part Name</label>
+                <div class="col-sm-9">
+                  <input
+                    type="text"
+                    id="MPARTNAME"
+                    name="MPARTNAME"
+                    class="form-control"
+                    required
+                    oninvalid="this.setCustomValidity('Please fill in the Part Name.')"
+                    oninput="this.setCustomValidity('')"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Supplier Name -->
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Supplier Name</label>
+                <div class="col-sm-9">
+                  <input
+                    type="text"
+                    id="NSUPPLIERPARTNAME"
+                    name="NSUPPLIERPARTNAME"
+                    class="form-control"
+                    required
+                    oninvalid="this.setCustomValidity('Please fill in the Supplier Name.')"
+                    oninput="this.setCustomValidity('')"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Status -->
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Status</label>
+                <div class="col-sm-9">
+                  <input
+                    type="text"
+                    name="NSTATUS"
+                    class="form-control"
+                    value="ACTIVE"
+                    readonly
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Save</button>
+          <a href="<?= base_url('part') ?>" class="btn btn-secondary">Cancel</a>
+        </form>
+      </div>
     </div>
+  </div>
 </div>
 
-<?php $this->load->view('layouts/footer'); ?>
+<?= $this->include('layouts/footer') ?>
+
+<script>
+  document
+    .getElementById('addPartForm')
+    .addEventListener('submit', function (e) {
+      if (!this.checkValidity()) {
+        e.preventDefault();
+        const firstBad = this.querySelector(':invalid');
+        firstBad.focus();
+        firstBad.reportValidity();
+      }
+    });
+</script>

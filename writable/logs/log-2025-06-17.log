@@ -1,0 +1,206 @@
+DEBUG - 2025-06-17 03:32:29 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 03:32:30 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 03:32:30 --> Password mismatch.
+DEBUG - 2025-06-17 03:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 03:32:37 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 03:32:37 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 03:32:37 --> Password mismatch.
+DEBUG - 2025-06-17 03:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 03:32:46 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 03:32:47 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 03:32:47 --> Password mismatch.
+DEBUG - 2025-06-17 03:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 03:33:12 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 03:33:12 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 03:33:12 --> Password mismatch.
+DEBUG - 2025-06-17 03:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 03:47:04 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 03:47:04 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 03:47:04 --> Password mismatch.
+DEBUG - 2025-06-17 03:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 03:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:02:16 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:02:16 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:02:16 --> Password mismatch.
+DEBUG - 2025-06-17 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:02:32 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:02:32 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:02:32 --> Password mismatch.
+DEBUG - 2025-06-17 04:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:02:36 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:02:36 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:02:36 --> Password mismatch.
+DEBUG - 2025-06-17 04:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:02:41 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:02:41 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:02:41 --> Password mismatch.
+DEBUG - 2025-06-17 04:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:10:01 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:10:01 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:10:01 --> Password mismatch.
+DEBUG - 2025-06-17 04:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:10:58 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:10:58 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:10:58 --> Password mismatch.
+DEBUG - 2025-06-17 04:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:17:54 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:17:54 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:17:54 --> Password mismatch.
+DEBUG - 2025-06-17 04:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:28:44 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:28:44 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:28:44 --> Password mismatch.
+DEBUG - 2025-06-17 04:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:28:52 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:28:52 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:28:52 --> Password mismatch.
+DEBUG - 2025-06-17 04:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:34:47 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:34:47 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:34:47 --> Password mismatch.
+DEBUG - 2025-06-17 04:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:35:00 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:35:00 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:35:00 --> Password mismatch.
+DEBUG - 2025-06-17 04:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 04:35:08 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 04:35:08 --> User found with MNOREG: 083278773
+DEBUG - 2025-06-17 04:35:08 --> Password mismatch.
+DEBUG - 2025-06-17 04:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 06:23:52 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 06:23:52 --> Password input: toyoadmin
+DEBUG - 2025-06-17 06:23:53 --> User found: 083278773
+DEBUG - 2025-06-17 06:23:53 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-17 06:23:53 --> Bypassing password check for debugging.
+DEBUG - 2025-06-17 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-17 06:24:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'status'.
+CRITICAL - 2025-06-17 06:24:11 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'status'.
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "status" = :status:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-17 06:24:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'status'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 505.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "status" = \'ACTIVE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "status" = \'ACTIVE\'')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "status" = :status:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(20): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+ERROR - 2025-06-17 06:24:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MSTATUS'.
+CRITICAL - 2025-06-17 06:24:40 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MSTATUS'.
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MSTATUS" = :MSTATUS:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-17 06:24:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MSTATUS'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 505.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MSTATUS" = \'ACTIVE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MSTATUS" = \'ACTIVE\'')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "DataWarehouse"."dbo"."TB_M_USER"
+WHERE "MSTATUS" = :MSTATUS:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(20): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-06-17 06:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 06:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 07:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 07:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 07:11:01 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: part/create]
+in APPPATH\Views\Part\create.php on line 1.
+ 1 APPPATH\Views\Part\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/create', [], true)
+ 5 APPPATH\Controllers\PartController.php(40): view('part/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-06-17 07:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 07:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 07:12:24 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: users/delete/082182188]
+in SYSTEMPATH\BaseModel.php on line 1014.
+ 1 SYSTEMPATH\BaseModel.php(1014): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\UserController.php(94): CodeIgniter\Model->update('082182188', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->delete('082182188')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-06-17 07:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 13:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 14:49:11 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 14:49:11 --> Password input: toyoadmin
+DEBUG - 2025-06-17 14:49:11 --> User found: 083278773
+DEBUG - 2025-06-17 14:49:11 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-17 14:49:11 --> Password mismatch.
+DEBUG - 2025-06-17 14:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 15:17:12 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 15:17:12 --> Password input: toyoadmin
+DEBUG - 2025-06-17 15:17:12 --> User found: 083278773
+DEBUG - 2025-06-17 15:17:12 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-17 15:17:12 --> Password mismatch.
+DEBUG - 2025-06-17 15:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 15:23:50 --> Login attempt by: superadmin
+DEBUG - 2025-06-17 15:23:50 --> Password input: toyoadmin
+DEBUG - 2025-06-17 15:23:50 --> User found: 083278773
+DEBUG - 2025-06-17 15:23:50 --> Password hash from DB: $2y$10$wH8v1k...
+DEBUG - 2025-06-17 15:23:50 --> Password mismatch.
+DEBUG - 2025-06-17 15:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

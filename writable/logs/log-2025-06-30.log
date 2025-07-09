@@ -1,0 +1,266 @@
+DEBUG - 2025-06-30 04:05:53 --> Login attempt by: superadmin
+DEBUG - 2025-06-30 04:05:53 --> Password input: toyoadmin
+DEBUG - 2025-06-30 04:05:54 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-30 04:05:54 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-30 04:05:54 --> Password match.
+DEBUG - 2025-06-30 04:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 04:05:54 --> Session setelah login: Array
+(
+    [__ci_last_regenerate] => 1751256354
+    [isLoggedIn] => 1
+    [userId] => 083278773
+    [username] => superadmin
+    [nama] => Super Admin
+)
+
+DEBUG - 2025-06-30 04:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 04:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-30 07:53:00 --> ErrorException: Undefined array key "MPARTID"
+[Method: GET, Route: part]
+in APPPATH\Views\Part\index.php on line 26.
+ 1 APPPATH\Views\Part\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MPARTID"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/index', [], true)
+ 5 APPPATH\Controllers\PartController.php(23): view('part/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:51:24 --> ErrorException: Undefined array key "MPARTID"
+[Method: GET, Route: part]
+in APPPATH\Views\Part\index.php on line 26.
+ 1 APPPATH\Views\Part\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MPARTID"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/index', [], true)
+ 5 APPPATH\Controllers\PartController.php(23): view('part/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:52:52 --> ErrorException: Undefined array key "MPARTID"
+[Method: GET, Route: part]
+in APPPATH\Views\Part\index.php on line 26.
+ 1 APPPATH\Views\Part\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MPARTID"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/index', [], true)
+ 5 APPPATH\Controllers\PartController.php(23): view('part/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:53:24 --> ErrorException: Undefined array key "NQTY"
+[Method: GET, Route: part]
+in APPPATH\Views\Part\index.php on line 28.
+ 1 APPPATH\Views\Part\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NQTY"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/index', [], true)
+ 5 APPPATH\Controllers\PartController.php(23): view('part/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:53:50 --> ErrorException: Undefined array key "MPARTID"
+[Method: GET, Route: part]
+in APPPATH\Views\Part\index.php on line 37.
+ 1 APPPATH\Views\Part\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MPARTID"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/index', [], true)
+ 5 APPPATH\Controllers\PartController.php(23): view('part/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+ERROR - 2025-06-30 08:54:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MPARTID'.
+CRITICAL - 2025-06-30 08:54:45 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MPARTID'.
+[Method: GET, Route: part/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\PartController.php(43): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:54:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MPARTID'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 505.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\PartController.php(43): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+ERROR - 2025-06-30 08:55:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MPARTID'.
+CRITICAL - 2025-06-30 08:55:44 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MPARTID'.
+[Method: GET, Route: part/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\PartController.php(43): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:55:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MPARTID'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 505.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT "MPARTID"
+FROM "DataWarehouse"."dbo"."TB_M_PART"
+ORDER BY "MPARTID" DESC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\PartController.php(43): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 08:59:08 --> ErrorException: Undefined variable $nextId
+[Method: GET, Route: part/create]
+in APPPATH\Views\Part\create.php on line 19.
+ 1 APPPATH\Views\Part\create.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextId', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/create', [], true)
+ 5 APPPATH\Controllers\PartController.php(54): view('part/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 09:00:07 --> ErrorException: Undefined array key "MPARTID"
+[Method: GET, Route: part/edit/091410B040]
+in APPPATH\Views\Part\update.php on line 9.
+ 1 APPPATH\Views\Part\update.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MPARTID"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/update', [], true)
+ 5 APPPATH\Controllers\PartController.php(82): view('part/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->edit('091410B040')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-06-30 09:01:23 --> ErrorException: Undefined array key "NQTY"
+[Method: GET, Route: part/edit/091410B040]
+in APPPATH\Views\Part\update.php on line 48.
+ 1 APPPATH\Views\Part\update.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NQTY"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/update', [], true)
+ 5 APPPATH\Controllers\PartController.php(82): view('part/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->edit('091410B040')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-06-30 09:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 09:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 14:52:32 --> Login attempt by: superadmin
+DEBUG - 2025-06-30 14:52:32 --> Password input: toyoadmin
+DEBUG - 2025-06-30 14:52:32 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-06-30 14:52:32 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-06-30 14:52:32 --> Password match.
+DEBUG - 2025-06-30 14:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 14:52:32 --> Session setelah login: Array
+(
+    [__ci_last_regenerate] => 1751295152
+    [isLoggedIn] => 1
+    [userId] => 00009901
+    [username] => superadmin
+    [nama] => Super Admin
+)
+
+DEBUG - 2025-06-30 14:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-30 15:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

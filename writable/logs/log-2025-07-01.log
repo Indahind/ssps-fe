@@ -1,0 +1,19 @@
+DEBUG - 2025-07-01 04:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-01 04:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-01 04:50:05 --> Login attempt by: superadmin
+DEBUG - 2025-07-01 04:50:05 --> Password input: toyoadmin
+DEBUG - 2025-07-01 04:50:06 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-07-01 04:50:06 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-07-01 04:50:06 --> Password match.
+DEBUG - 2025-07-01 04:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-01 04:50:07 --> Session setelah login: Array
+(
+    [__ci_last_regenerate] => 1751345407
+    [isLoggedIn] => 1
+    [userId] => 00009901
+    [username] => superadmin
+    [nama] => Super Admin
+)
+
+DEBUG - 2025-07-01 04:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-01 04:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,163 @@
+DEBUG - 2025-07-05 03:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 03:25:19 --> Login attempt by: superadmin
+DEBUG - 2025-07-05 03:25:19 --> Password input: toyoadmin
+DEBUG - 2025-07-05 03:25:20 --> Login attempt: superadmin / toyoadmin
+DEBUG - 2025-07-05 03:25:20 --> Password from DB: $2y$10$Ws8vghqjuVG2AS/3mk853u/wuOgAMu.FwMwZyJo79H9xnA3DwI31.
+DEBUG - 2025-07-05 03:25:20 --> Password match.
+DEBUG - 2025-07-05 03:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 03:25:20 --> Session setelah login: Array
+(
+    [__ci_last_regenerate] => 1751685920
+    [isLoggedIn] => 1
+    [userId] => 00009901
+    [username] => superadmin
+    [nama] => Super Admin
+)
+
+DEBUG - 2025-07-05 03:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 04:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 04:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 04:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 04:42:53 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: users/delete/00009893]
+in SYSTEMPATH\BaseModel.php on line 1014.
+ 1 SYSTEMPATH\BaseModel.php(1014): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\UserController.php(92): CodeIgniter\Model->update('00009893', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->delete('00009893')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+CRITICAL - 2025-07-05 04:48:32 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: users/delete/00009893]
+in SYSTEMPATH\BaseModel.php on line 1014.
+ 1 SYSTEMPATH\BaseModel.php(1014): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\UserController.php(92): CodeIgniter\Model->update('00009893', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->delete('00009893')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-07-05 04:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 05:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 05:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 08:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 08:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 08:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 08:18:19 --> ErrorException: Undefined variable $user
+[Method: GET, Route: part/edit/091410B040]
+in APPPATH\Views\Part\update.php on line 21.
+ 1 APPPATH\Views\Part\update.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/update', [], true)
+ 5 APPPATH\Controllers\PartController.php(82): view('part/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->edit('091410B040')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-07-05 08:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 08:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 08:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 08:21:23 --> ErrorException: Undefined variable $user
+[Method: GET, Route: part/edit/091410B040]
+in APPPATH\Views\Part\update.php on line 21.
+ 1 APPPATH\Views\Part\update.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/update', [], true)
+ 5 APPPATH\Controllers\PartController.php(82): view('part/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->edit('091410B040')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-07-05 08:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 08:21:45 --> ErrorException: Undefined variable $user
+[Method: GET, Route: part/edit/091410B040]
+in APPPATH\Views\Part\update.php on line 21.
+ 1 APPPATH\Views\Part\update.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/update', [], true)
+ 5 APPPATH\Controllers\PartController.php(82): view('part/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->edit('091410B040')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-07-05 08:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 08:37:42 --> ErrorException: Undefined array key "NQTY"
+[Method: GET, Route: part/edit/091410B040]
+in APPPATH\Views\Part\update.php on line 69.
+ 1 APPPATH\Views\Part\update.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NQTY"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php', 69)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\update.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/update', [], true)
+ 5 APPPATH\Controllers\PartController.php(82): view('part/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->edit('091410B040')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-07-05 08:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 09:01:12 --> ErrorException: Undefined array key "NSUPPLIERPARTNO"
+[Method: GET, Route: part]
+in APPPATH\Views\Part\index.php on line 28.
+ 1 APPPATH\Views\Part\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NSUPPLIERPARTNO"', 'D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Magang\\SSPS\\project\\app\\Views\\Part\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('part/index', [], true)
+ 5 APPPATH\Controllers\PartController.php(23): view('part/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PartController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Magang\\SSPS\\project\\public\\index.php')
+DEBUG - 2025-07-05 09:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

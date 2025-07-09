@@ -10,15 +10,15 @@
                 <table class="table">
                     <tr>
                         <th>Part ID</th>
-                        <td><?= esc($part['MPARTID']) ?></td>
+                        <td><?= esc($part['MPARTNO']) ?></td>
                     </tr>
                     <tr>
                         <th>Part Name</th>
                         <td><?= esc($part['MPARTNAME']) ?></td>
                     </tr>
                     <tr>
-                        <th>Quantity</th>
-                        <td><?= esc($part['NQTY']) ?></td>
+                        <th>Supplier Name</th>
+                        <td><?= esc($part['NSUPPLIERPARTNAME']) ?></td>
                     </tr>
                     <tr>
                         <th>Status</th>

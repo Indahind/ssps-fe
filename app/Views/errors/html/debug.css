@@ -39,7 +39,7 @@ p.lead {
     padding: 1rem;
 }
 .header {
-    background: var(--light-bg-color);
+    background: rgba(255, 255, 255, 0.9);
     color: var(--dark-text-color);
     margin-top: 2.17rem;
 }
@@ -73,7 +73,9 @@ p.lead {
     width: 100%;
     top: 0;
     position: fixed;
+    z-index: 999; /* Menjaga agar tetap di atas konten */
 }
+
 
 .source {
     background: #343434;

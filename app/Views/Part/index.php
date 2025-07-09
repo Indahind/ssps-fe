@@ -15,7 +15,7 @@
                         <tr>
                             <th>Part ID</th>
                             <th>Part Name</th>
-                            <th>Quantity</th>
+                            <th>Supplier Nama</th>
                             <th>Status</th>
                             <th>Action</th>
                         </tr>
@@ -23,28 +23,27 @@
                     <tbody>
                         <?php foreach ($parts as $part): ?>
                             <tr>
-                                <td><?= esc($part['MPARTID']) ?></td>
+                                <td><?= esc($part['MPARTNO']) ?></td>
                                 <td><?= esc($part['MPARTNAME']) ?></td>
-                                <td><?= esc($part['NQTY']) ?></td>
+                                <td><?= esc($part['NSUPPLIERPARTNAME']) ?></td>
                                 <td>
-                                    <?php if ($part['NSTATUS'] === 'ACTIVE'): ?>
                                         <span class="badge badge-success">ACTIVE</span>
-                                    <?php else: ?>
-                                        <span class="badge badge-secondary">INACTIVE</span>
-                                    <?php endif; ?>
+                                    
                                 </td>
                                 <td>
-                                    <a href="<?= site_url('part/edit/' . $part['MPARTID']) ?>" title="Update">
+
+                                    <a href="<?= site_url('part/show/' . $part['MPARTNO']) ?>" title="Detail">
+                                        <i class="mdi mdi-eye mdi-24px"></i>
+                                    </a>
+
+                                    <a href="<?= site_url('part/edit/' . $part['MPARTNO']) ?>" title="Update">
                                         <i class="mdi mdi-grease-pencil mdi-24px"></i>
                                     </a>
 
-                                    <a href="<?= site_url('part/delete/' . $part['MPARTID']) ?>" title="Delete" onclick="return confirm('Are you sure you want to delete this part?');">
+                                    <a href="<?= site_url('part/delete/' . $part['MPARTNO']) ?>" title="Delete" onclick="return confirm('Are you sure you want to delete this part?');">
                                         <i class="mdi mdi-delete mdi-24px"></i>
                                     </a>
 
-                                    <a href="<?= site_url('part/show/' . $part['MPARTID']) ?>" title="Detail">
-                                        <i class="mdi mdi-eye mdi-24px"></i>
-                                    </a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

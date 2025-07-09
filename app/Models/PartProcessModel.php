@@ -15,7 +15,7 @@ class PartProcessModel extends Model
 
     protected $allowedFields = [
         'PROCESSID',
-        'MPARTID',
+        'MPARTNO',
         'MNOREG',
         'RECEIVINGDATE',
         'RECEIVING_QTY_PLAN',

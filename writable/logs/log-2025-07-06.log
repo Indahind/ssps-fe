@@ -1,0 +1,49 @@
+DEBUG - 2025-07-06 14:53:30 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 14:53:30 --> Password input: akbar25
+DEBUG - 2025-07-06 14:53:31 --> Login attempt: akbar25 / akbar25
+DEBUG - 2025-07-06 14:53:31 --> Password from DB: $2y$10$u/ccjzFz2tkn8a.iSGZJHe3eW8xexp4qgOyv9dutyhV93j4NTWCbi
+DEBUG - 2025-07-06 14:53:31 --> User is not active.
+DEBUG - 2025-07-06 14:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 14:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 14:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 14:59:54 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 14:59:54 --> Password input: akbar25
+DEBUG - 2025-07-06 14:59:54 --> Login attempt: akbar25 / akbar25
+DEBUG - 2025-07-06 14:59:54 --> Password from DB: $2y$10$u/ccjzFz2tkn8a.iSGZJHe3eW8xexp4qgOyv9dutyhV93j4NTWCbi
+DEBUG - 2025-07-06 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:04:47 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 15:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:08:02 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 15:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:11:01 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 15:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:21:38 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 15:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 15:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:14:24 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 20:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:39:55 --> Login attempt by: akbar25
+DEBUG - 2025-07-06 20:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:54:30 --> Login attempt by: superadmin
+DEBUG - 2025-07-06 20:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 20:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-06 21:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

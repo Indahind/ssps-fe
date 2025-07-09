@@ -16,7 +16,7 @@ class UserController extends BaseController
     public function index()
     {
         $data['users'] = $this->userModel
-            ->where('status', 'ACTIVE')
+            ->where('NSTATUS', 'ACTIVE')
             ->findAll();
 
         return view('user/index', $data);
@@ -41,17 +41,22 @@ class UserController extends BaseController
     {
         $data = $this->request->getPost();
 
-        // Hash password sebelum simpan
+        $existingUser = $this->userModel->where('MUSERNAME', $data['MUSERNAME'])->first();
+        
+        if ($existingUser) {
+            return redirect()->back()->withInput()->with('error', 'Username already exists. Please choose a different username.');
+        }
+
         $data['MPASWORD'] = password_hash($data['MPASWORD'], PASSWORD_DEFAULT);
         $data['NSTATUS'] = 'ACTIVE';
 
         if (!$this->userModel->insert($data)) {
-            return redirect()->back()->withInput()->with('errors', $this->userModel->errors());
+            $errors = $this->userModel->errors();
+            return redirect()->back()->withInput()->with('errors', $errors);
         }
 
-        return redirect()->to('/users')->with('success', 'User berhasil ditambahkan.');
+        return redirect()->to('/users')->with('success', 'User successfully added.');
     }
-
 
     public function edit($id)
     {
@@ -67,31 +72,46 @@ class UserController extends BaseController
     {
         $data = $this->request->getPost();
 
-        // Kalau password kosong, jangan update password
+        $existingUser = $this->userModel->where('MUSERNAME', $data['MUSERNAME'])
+                                        ->where('MNOREG !=', $id)  // Exclude the current user being updated
+                                        ->first();
+
+        if ($existingUser) {
+            return redirect()->back()->withInput()->with('error', 'Username already exists. Please choose a different username.');
+        }
+
         if (empty($data['MPASWORD'])) {
             unset($data['MPASWORD']);
         } else {
-            // Hash password baru
             $data['MPASWORD'] = password_hash($data['MPASWORD'], PASSWORD_DEFAULT);
         }
 
         if (!$this->userModel->update($id, $data)) {
-            return redirect()->back()->withInput()->with('errors', $this->userModel->errors());
+            $errors = $this->userModel->errors();
+            return redirect()->back()->withInput()->with('errors', $errors);
         }
 
-        return redirect()->to('/users')->with('success', 'User berhasil diupdate.');
+        return redirect()->to('/users')->with('success', 'User successfully updated.');
     }
 
 
-
-    public function delete($id)
+    public function delete($MNOREG)
     {
-        $user = $this->userModel->find($id);
+        $user = $this->userModel->where('MNOREG', $MNOREG)->first();
+
         if (!$user) {
-            throw new \CodeIgniter\Exceptions\PageNotFoundException('User not found');
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('User not found.');
         }
 
-        $this->userModel->update($id, ['status' => 'INACTIVE']);
-        return redirect()->to('/users')->with('success', 'User berhasil dinonaktifkan.');
+        $data = ['NSTATUS' => 'INACTIVE'];
+
+        $updateResult = $this->userModel->update($MNOREG, $data);
+
+        if (!$updateResult) {
+            return redirect()->to('/users')->with('errors', 'Failed to deactivate user.');
+        }
+
+        return redirect()->to('/users')->with('success', 'User successfully deactivated.');
     }
+
 }

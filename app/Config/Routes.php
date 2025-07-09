@@ -8,11 +8,10 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'LoginController::index');
 $routes->get('/login', 'LoginController::index');
 $routes->post('/login/authenticate', 'LoginController::authenticate');
-$routes->get('/logout', 'AuthController::logout'); 
+$routes->get('/logout', 'LoginController::logout');
 $routes->get('/dashboard', 'DashboardController::index');
 $routes->get('/testDb', 'LoginController::testDb');
-
-// $routes->resource('parts', ['controller' => 'PartController']);$routes->get('/part', 'PartViewController::index');            // list semua part
+$routes->resource('parts', ['controller' => 'PartController']);$routes->get('/part', 'PartController::index');
 $routes->get('/part', 'PartController::index');
 $routes->get('/part/create', 'PartController::create');
 $routes->post('/part/store', 'PartController::store');
@@ -20,9 +19,6 @@ $routes->get('/part/edit/(:segment)', 'PartController::edit/$1');
 $routes->post('/part/update/(:segment)', 'PartController::update/$1');
 $routes->get('/part/delete/(:segment)', 'PartController::delete/$1');
 $routes->get('/part/show/(:segment)', 'PartController::show/$1');
-
-$routes->get('/dashboard', 'DashboardController::index');
-
 
 $routes->get('/users', 'UserController::index');
 $routes->get('/users/create', 'UserController::create');
