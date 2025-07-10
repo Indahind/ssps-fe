@@ -8,6 +8,12 @@
         <h4 class="card-title">Create User</h4>
 
         <!-- Show server-side validation errors -->
+        <?php if (session()->getFlashdata('error')): ?>
+          <div class="alert alert-danger">
+            <p><?= esc(session()->getFlashdata('error')) ?></p>
+          </div>
+        <?php endif; ?>
+
         <?php if (session()->getFlashdata('errors')): ?>
           <div class="alert alert-danger">
             <ul>
@@ -18,72 +24,66 @@
           </div>
         <?php endif; ?>
 
-        <!-- NO novalidate here, so browser will show UI -->
-        <form
-          id="createUserForm"
-          action="<?= site_url('users/store') ?>"
-          method="post"
-        >
-          <?= csrf_field() ?>
+      <form id="createUserForm" action="<?= site_url('users/store') ?>" method="post">
+        <?= csrf_field() ?>
 
-          <div class="form-group">
-            <label for="MNOREG">No Reg</label>
-            <input
-              type="text"
-              id="MNOREG"
-              name="MNOREG"
-              class="form-control"
-              value="<?= old('MNOREG') ?>"
-              required
-              oninvalid="this.setCustomValidity('Please fill in the No Reg.')"
-              oninput="this.setCustomValidity('')"
-            />
-          </div>
+        <div class="form-group">
+          <label for="MNOREG">No Reg</label>
+          <input
+            type="text"
+            id="MNOREG"
+            name="MNOREG"
+            class="form-control"
+            value="<?= old('MNOREG') ?: $MNOREG ?>"
+            readonly
+          />
+        </div>
 
-          <div class="form-group">
-            <label for="MUSERNAME">Username</label>
-            <input
-              type="text"
-              id="MUSERNAME"
-              name="MUSERNAME"
-              class="form-control"
-              value="<?= old('MUSERNAME') ?>"
-              required
-              oninvalid="this.setCustomValidity('Please fill in the Username.')"
-              oninput="this.setCustomValidity('')"
-            />
-          </div>
+        <div class="form-group">
+          <label for="MUSERNAME">Username</label>
+          <input
+            type="text"
+            id="MUSERNAME"
+            name="MUSERNAME"
+            class="form-control"
+            value="<?= old('MUSERNAME') ?>"
+            required
+            oninvalid="this.setCustomValidity('Please fill in the Username.')"
+            oninput="this.setCustomValidity('')"
+          />
+        </div>
 
-          <div class="form-group">
-            <label for="MNAMA">Nama</label>
-            <input
-              type="text"
-              id="MNAMA"
-              name="MNAMA"
-              class="form-control"
-              value="<?= old('MNAMA') ?>"
-              required
-              oninvalid="this.setCustomValidity('Please fill in the Nama.')"
-              oninput="this.setCustomValidity('')"
-            />
-          </div>
+        <div class="form-group">
+          <label for="MNAMA">Nama</label>
+          <input
+            type="text"
+            id="MNAMA"
+            name="MNAMA"
+            class="form-control"
+            value="<?= old('MNAMA') ?>"
+            required
+            oninvalid="this.setCustomValidity('Please fill in the Nama.')"
+            oninput="this.setCustomValidity('')"
+          />
+        </div>
 
-          <div class="form-group">
-            <label for="MPASWORD">Password</label>
-            <input
-              type="password"
-              id="MPASWORD"
-              name="MPASWORD"
-              class="form-control"
-              required
-              oninvalid="this.setCustomValidity('Please fill in the Password.')"
-              oninput="this.setCustomValidity('')"
-            />
-          </div>
+        <div class="form-group">
+          <label for="MPASWORD">Password</label>
+          <input
+            type="password"
+            id="MPASWORD"
+            name="MPASWORD"
+            class="form-control"
+            required
+            oninvalid="this.setCustomValidity('Please fill in the Password.')"
+            oninput="this.setCustomValidity('')"
+          />
+        </div>
 
-          <button type="submit" class="btn btn-primary">Save</button>
-          <a href="<?= site_url('users') ?>" class="btn btn-secondary">Cancel</a>
-        </form>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a href="<?= site_url('users') ?>" class="btn btn-secondary">Cancel</a>
+      </form>
+
       </div>
     </div>
   </div>

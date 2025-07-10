@@ -54,7 +54,7 @@
                                     <a href="<?= site_url('users/edit/' . $user['MNOREG']) ?>" title="Edit">
                                         <i class="mdi mdi-grease-pencil mdi-24px"></i>
                                     </a>
-                                    <a href="<?= site_url('users/delete/' . $user['MNOREG']) ?>" title="Nonaktifkan" onclick="return confirm('Yakin ingin menonaktifkan user ini?');">
+                                    <a href="<?= site_url('users/delete/' . $user['MNOREG']) ?>" title="Nonaktifkan" onclick="return confirm('Are you sure you want to deactivate this user?');">
                                         <i class="mdi mdi-delete mdi-24px"></i>
                                     </a>
                                 </td>
