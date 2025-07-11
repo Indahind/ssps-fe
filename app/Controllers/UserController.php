@@ -78,7 +78,8 @@ class UserController extends BaseController
         $data['NSTATUS'] = 'ACTIVE';
 
         $data['CREATEDATE'] = date('Y-m-d H:i:s');
-        $data['CREATEBY'] = session()->get('username');
+        //$data['CREATEBY'] = session()->get('username');
+        $data['CREATEBY'] = "superadmin";
 
         if (!$this->userModel->insert($data)) {
             $errors = $this->userModel->errors();

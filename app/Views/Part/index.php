@@ -7,6 +7,20 @@
             <div class="card-body">
                 <h4 class="card-title">Part List</h4>
 
+                <!-- Display success message if available -->
+                <?php if (session()->getFlashdata('success')): ?>
+                    <div class="alert alert-success">
+                        <?= session()->getFlashdata('success') ?>
+                    </div>
+                <?php endif; ?>
+
+                <!-- Display error message if available -->
+                <?php if (session()->getFlashdata('errors')): ?>
+                    <div class="alert alert-danger">
+                        <?= session()->getFlashdata('errors') ?>
+                    </div>
+                <?php endif; ?>
+
                 <!-- Link ke halaman create -->
                 <a href="<?= site_url('part/create') ?>" class="btn btn-primary mb-3">Add New Part</a>
 
@@ -40,7 +54,7 @@
                                         <i class="mdi mdi-grease-pencil mdi-24px"></i>
                                     </a>
 
-                                    <a href="<?= site_url('part/delete/' . $part['MPARTNO']) ?>" title="Delete" onclick="return confirm('Are you sure you want to delete this part?');">
+                                    <a href="<?= site_url('part/delete/' . $part['MPARTNO']) ?>" title="Delete" onclick="return confirm('Are you sure you want to deactivate this part?');">
                                         <i class="mdi mdi-delete mdi-24px"></i>
                                     </a>
 

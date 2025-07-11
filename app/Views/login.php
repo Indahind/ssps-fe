@@ -22,8 +22,8 @@
               <div class="brand-logo">
                 <img src="<?= base_url('images/logotmmin-sm.png') ?>" alt="logo" />
               </div>
-              <h4>Hello! let's get started</h4>
-              <h6 class="font-weight-light">Sign in to continue.</h6>
+              <!-- <h4>Hello! let's get started</h4>
+              <h6 class="font-weight-light">Sign in to continue.</h6> -->
 
               <?php if (session()->getFlashdata('error')): ?>
                 <div class="alert alert-danger">

@@ -61,8 +61,8 @@ class PartController extends BaseController
         $data = $this->request->getPost();
         $data['NSTATUS'] = 'ACTIVE';
         $data['CREATEDATE'] = date('Y-m-d');
-        $data['CREATEBY'] = session()->get('MUSERNAME'); 
-
+        //$data['CREATEBY'] = session()->get('MUSERNAME'); 
+        $data['CREATEBY'] = "superadmin";
 
         if (!$this->partModel->insert($data)) {
             return redirect()->back()->withInput()->with('errors', $this->partModel->errors());
@@ -102,6 +102,6 @@ class PartController extends BaseController
 
         $this->partModel->update($id, ['NSTATUS' => 'INACTIVE']);
 
-        return redirect()->to('/part')->with('success', 'Part berhasil dinonaktifkan.');
+        return redirect()->to('/part')->with('success', 'Part successfully deactivated.');
     }
 }
