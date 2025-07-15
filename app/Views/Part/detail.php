@@ -18,7 +18,7 @@
                     </tr>
                     <tr>
                         <th>Supplier Name</th>
-                        <td><?= esc($part['NSUPPLIERPARTNAME']) ?></td>
+                        <td><?= esc($part['SUPPLIERNAME']) ?></td> <!-- Display SUPPLIERNAME -->
                     </tr>
                     <tr>
                         <th>Status</th>

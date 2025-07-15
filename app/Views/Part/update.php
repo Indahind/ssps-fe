@@ -25,28 +25,15 @@
           </div>
         <?php endif; ?>
 
-        <form
-          id="updatePartForm"
-          method="POST"
-          action="<?= base_url('part/update/' . esc($part['MPARTNO'])) ?>"
-          class="form-sample"
-          novalidate
-        >
+        <form id="updatePartForm" method="POST" action="<?= base_url('part/update/' . esc($part['MPARTNO'])) ?>" class="form-sample" novalidate>
           <?= csrf_field() ?>
 
           <div class="row">
-            <!-- Part ID (read-only) -->
             <div class="col-md-6">
               <div class="form-group row">
                 <label class="col-sm-3 col-form-label">Part ID</label>
                 <div class="col-sm-9">
-                  <input
-                    type="text"
-                    name="MPARTNO"
-                    class="form-control"
-                    value="<?= esc($part['MPARTNO']) ?>"
-                    readonly
-                  />
+                  <input type="text" name="MPARTNO" class="form-control" value="<?= esc($part['MPARTNO']) ?>" readonly />
                 </div>
               </div>
             </div>
@@ -56,37 +43,26 @@
               <div class="form-group row">
                 <label class="col-sm-3 col-form-label">Part Name</label>
                 <div class="col-sm-9">
-                  <input
-                    type="text"
-                    id="MPARTNAME"
-                    name="MPARTNAME"
-                    class="form-control"
-                    value="<?= old('MPARTNAME', esc($part['MPARTNAME'])) ?>"
-                    required
-                    oninvalid="this.setCustomValidity('Please fill in the Part Name.')"
-                    oninput="this.setCustomValidity('')"
-                  />
+                  <input type="text" id="MPARTNAME" name="MPARTNAME" class="form-control" value="<?= old('MPARTNAME', esc($part['MPARTNAME'])) ?>" required />
                 </div>
               </div>
             </div>
           </div>
 
           <div class="row">
-            <!-- Supplier Name -->
+            <!-- Supplier Name (Dropdown) -->
             <div class="col-md-6">
               <div class="form-group row">
-                <label class="col-sm-3 col-form-label">Supplier Name</label>
+                <label class="col-sm-3 col-form-label">Supplier</label>
                 <div class="col-sm-9">
-                  <input
-                    type="text"
-                    id="NSUPPLIERPARTNAME"
-                    name="NSUPPLIERPARTNAME"
-                    class="form-control"
-                    value="<?= old('NSUPPLIERPARTNAME', esc($part['NSUPPLIERPARTNAME'])) ?>"
-                    required
-                    oninvalid="this.setCustomValidity('Please fill in the Supplier Name.')"
-                    oninput="this.setCustomValidity('')"
-                  />
+                  <select id="SUPPLIERCD" name="SUPPLIERCD" class="form-control" required>
+                    <option value="">Select Supplier</option>
+                    <?php foreach ($suppliers as $supplier): ?>
+                      <option value="<?= esc($supplier['SUPPLIERCD']) ?>" <?= esc($supplier['SUPPLIERCD']) == esc($part['SUPPLIERCD']) ? 'selected' : '' ?>>
+                        <?= esc($supplier['SUPPLIERNAME']) ?>
+                      </option>
+                    <?php endforeach; ?>
+                  </select>
                 </div>
               </div>
             </div>
@@ -96,13 +72,7 @@
               <div class="form-group row">
                 <label class="col-sm-3 col-form-label">Status</label>
                 <div class="col-sm-9">
-                  <input
-                    type="text"
-                    name="NSTATUS"
-                    class="form-control"
-                    value="ACTIVE"
-                    readonly
-                  />
+                  <input type="text" name="NSTATUS" class="form-control" value="<?= esc($part['NSTATUS']) ?>" readonly />
                 </div>
               </div>
             </div>
@@ -119,15 +89,12 @@
 <?= $this->include('layouts/footer') ?>
 
 <script>
-  // Focus and show custom message on first invalid input
-  document
-    .getElementById('updatePartForm')
-    .addEventListener('submit', function (e) {
-      if (!this.checkValidity()) {
-        e.preventDefault();
-        const firstBad = this.querySelector(':invalid');
-        firstBad.focus();
-        firstBad.reportValidity();
-      }
-    });
+  document.getElementById('updatePartForm').addEventListener('submit', function (e) {
+    if (!this.checkValidity()) {
+      e.preventDefault();
+      const firstBad = this.querySelector(':invalid');
+      firstBad.focus();
+      firstBad.reportValidity();
+    }
+  });
 </script>
